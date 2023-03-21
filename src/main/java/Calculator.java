@@ -68,7 +68,7 @@ public class Calculator {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Choose operation \n"+
+        System.out.print("Choose operation: \n"+
                 "1. Square Root  \n"+
                 "2. Factorial  \n"+
                 "3. Natural Log  \n"+
