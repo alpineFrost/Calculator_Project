@@ -11,4 +11,4 @@
       shell: docker pull abhigna4443/calculator_project:latest
 
     - name: run container
-      shell: docker run -i -t --name calculator -d bhigna4443/calculator_project
+      shell: docker run -i -t --name calculator -d abhigna4443/calculator_project
