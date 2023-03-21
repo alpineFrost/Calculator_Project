@@ -5,3 +5,6 @@
       docker_image:
         name: abhigna4443/calculator_project
         source: pull
+        
+        vars:
+        - ansible_python_interpreter: /home/linuxbrew/.linuxbrew/bin/python3
