@@ -3,7 +3,7 @@
   tasks:
 
     - name: Remove old containers
-      shell: docker ps -aq --filter name="calculator" | xargs docker stop | xargs docker rm
+      shell: docker ps -aq --filter name="calculator_project" | xargs docker stop | xargs docker rm
 
     - name: Pull Image
       shell: docker pull abhigna4443/calculator_project:latest
