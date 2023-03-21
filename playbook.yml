@@ -1,0 +1,7 @@
+- name: Pull and Run docker image
+  hosts: all
+  tasks:
+    - name: Pull abhigna4443/calculator_project
+      docker_image:
+        name: abhigna4443/calculator_project
+        source: pull
